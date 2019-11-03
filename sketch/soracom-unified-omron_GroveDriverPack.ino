@@ -1,20 +1,17 @@
-#include <WioLTEforArduino.h>
-#include <stdio.h>
-
-// https://github.com/SeeedJP/GroveDriverPack/releases
-#include <GroveDriverPack.h>
+#include <GroveDriverPack.h>  // https://github.com/SeeedJP/GroveDriverPack
 
 #define INTERVAL        (60000)
 #define RECEIVE_TIMEOUT (10000)
 
+WioCellular Wio;
+
 GroveBoard Board;
 OmronBaro2SMPB02E Sensor(&Board.I2C);
-
-WioLTE Wio;
 
 void setup() {
   delay(200);
 
+  SerialUSB.begin(115200);
   SerialUSB.println("");
   SerialUSB.println("--- START ---------------------------------------------------");
 
@@ -22,9 +19,7 @@ void setup() {
   Wio.Init();
 
   SerialUSB.println("### Power supply ON.");
-  Wio.PowerSupplyLTE(true);
-  delay(500);
-
+  Wio.PowerSupplyCellular(true);
   Wio.PowerSupplyGrove(true);
   delay(500);
 
@@ -40,6 +35,7 @@ void setup() {
     return;
   }
 
+  SerialUSB.println("### Sensor Initialize.");
   Board.I2C.Enable();
   Sensor.Init();
 
@@ -47,21 +43,20 @@ void setup() {
 }
 
 void loop() {
-  char data[1024];
+  char data[200];
   Sensor.Read();
-
   SerialUSB.print("Current temperature = ");
   SerialUSB.print(Sensor.Temperature);
   SerialUSB.print("C  ");
   SerialUSB.print("pressure = ");
   SerialUSB.print(Sensor.Pressure);
   SerialUSB.println("Pa");
-
-  sprintf(data,"{\"temp\":%.1f,\"pres\":%.1f}", Sensor.Temperature, Sensor.Pressure);
+  sprintf(data, "{\"temp\":%.1f,\"pres\":%.1f}", Sensor.Temperature, Sensor.Pressure);
+  if (isnan(Sensor.Temperature) || isnan(Sensor.Pressure)) goto err;
 
   SerialUSB.println("### Open.");
   int connectId;
-  connectId = Wio.SocketOpen("uni.soracom.io", 23080, WIOLTE_UDP);
+  connectId = Wio.SocketOpen("uni.soracom.io", 23080, WIO_UDP);
   if (connectId < 0) {
     SerialUSB.println("### ERROR! ###");
     goto err;
@@ -102,3 +97,4 @@ err:
   delay(INTERVAL);
 }
 
+////////////////////////////////////////////////////////////////////////////////////////
