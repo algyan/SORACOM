@@ -1,10 +1,10 @@
-# 1-3: 温湿度センサーのデータを SORACOM Harvest で可視化
+# 1-3: 絶対圧センサーのデータを SORACOM Harvest で可視化
 
-デジタル温湿度センサーのデータを SORACOM Harvest で可視化してみましょう
+絶対圧センサーのデータを SORACOM Harvest で可視化してみましょう
 
 ※センサーを組み合わせた開発を学びます
 
-![ステップ3 ovewview](https://docs.google.com/drawings/d/e/2PACX-1vSWZW16P0NALgTq2O1w1MuAhlK_NagFV-HwU8NNa4Sui1mxDXUdK6Y4TSRfzrAgqDhd5IXPWTvgZjpG/pub?w=615&h=247)
+![ステップ3 ovewview](https://docs.google.com/drawings/d/e/2PACX-1vTWiU1rTH1oXMWIDuFoNhC6d0EJ3guDcLRi8jjTBFQEhoBvUaub9eQnkpX0eAKLwz9u78lWKVGccuD3/pub?w=480&h=360)
 
 ## 最初に. Wio LTE の電源を OFF にする
 
@@ -12,15 +12,15 @@ Wio LTE の microUSB ケーブルを抜き、電源を OFF にしてください
 
 ※いきなり抜いてOKです。また、すでに OFF になっている場合は次に進んでください
 
-## 1. Wio LTE にデジタル温湿度センサーを取り付ける
+## 1. Wio LTE に絶対圧センサーを取り付ける
 
 **※Wio LTE から microUSB ケーブルを抜いた状態にしてください**
 
-Grove デジタル温湿度センサーを Wio LTE に取り付けます
+Grove 絶対圧センサーを Wio LTE に取り付けます
 
-Wio LTE の **D38** に取り付けてください
+Wio LTE の **I2C** に取り付けてください
 
-![Wio LTE にデジタル温湿度センサーを取り付けたところ](https://docs.google.com/drawings/d/e/2PACX-1vTZiJ7ep0q7IR2KoNJPnvHcTA_JMGEWTn5qwrlp8AC2YLAtETPRAGXss98LMKm061OlM76hDasUyIoS/pub?w=640&h=480)
+![Wio LTE に絶対圧センサーを取り付けたところ](https://docs.google.com/drawings/d/e/2PACX-1vTZiJ7ep0q7IR2KoNJPnvHcTA_JMGEWTn5qwrlp8AC2YLAtETPRAGXss98LMKm061OlM76hDasUyIoS/pub?w=640&h=480)
 
 <h2 id="sketch">2. スケッチを作成する</h2>
 
@@ -30,25 +30,22 @@ Wio LTE の **D38** に取り付けてください
 
 なっていなければ一覧から "Seeed Wio LTE Cat.1" を選んでください
 
-### 2-3. Arduino IDE の [ファイル] > [スケッチ例] > [Wio LTE for Arduino] > [soracom] > [soracom-unified]
+### 2-3. GroveDriverPack ライブラリをインストールする
 
-※上記の通り新規に始めても、ステップ2の続きから始めても構いません
+### TBD GroveDriverPack の説明
 
-※スケッチ例に `soracom-unified` が表示されない場合は、ライブラリを最新にする必要があります。Arduino IDE のライブラリマネージャーからインストール済みのライブラリの更新を行ってください。
+以下の URL より `Source code(zip)` を選択して zip ファイルをダウンロードします。
+https://github.com/SeeedJP/GroveDriverPack/releases
 
-### 2-4. スケッチの 8 行目の行頭 `//` を取り除きます (アンコメントする)
+Arduino IDE の [スケッチ] > [ライブラリをインクルード] > [.ZIP 形式のライブラリをインストール…] を選択し、先ほどダウンロードした `GroveDriverPack-1.4.0.zip` を探して「開く」をクリックすればインストール完了です
+![](https://docs.google.com/drawings/d/e/2PACX-1vSyvtSl8JWQO_D5-pkwQsp0YVrrWOU76GlZohHURcIIEU-5W3PreVa9tCTUyYI94mId_y5zICWpC6xJ/pub?w=555&h=273)
 
-変更前
+### 2-4. スケッチをダウンロードする
 
-```
-// #define SENSOR_PIN    (WIOLTE_D38)
-```
+Arduino IDE で [ファイル] > [新規ファイル] で新しいスケッチを開き、全て削除して何も書かれていない状態にします。
 
-変更後
-
-```
-#define SENSOR_PIN    (WIOLTE_D38)
-```
+以下の URL を開き、表示されたスケッチをコピーして Arduino IDE にペーストします。
+https://raw.githubusercontent.com/algyan/SORACOM/master/sketch/soracom-unified-omron_GroveDriverPack.ino
 
 ### 2-5. Wio LTE と PC を接続して DFUモード にする
 
@@ -62,7 +59,7 @@ Wio LTE の **D38** に取り付けてください
 
 ## 3. 確認
 
-SORACOM Harvest 上で温度(temp)・湿度(humi)が表示されるようになります  
+SORACOM Harvest 上で温度(temp)・絶対圧(pres)が表示されるようになります  
 ※SORACOM Harvest の操作方法は ステップ2 で確認してください
 
 ![harvest-all-plot](https://docs.google.com/drawings/d/e/2PACX-1vSwebGsd_kOHhagej9sCP5WEVVYZt45KKKa_vgd343pLYyIMj95sFvdMtDtDSe3eixfDjJBizt3wlS5/pub?w=674&h=333)
@@ -75,7 +72,7 @@ SORACOM Harvest 上で温度(temp)・湿度(humi)が表示されるようにな�
 
 達成状況を運営表へご記入ください。
 
-* [2-1.クラウド連携 / SORACOM Funnel + AWS IoT Core 編](../2/1-soracom-funnel+aws-iot-core) に進んで下さい
+* [2-1.クラウド連携 / Azure IoT Central 編](../2/1-soracom-beam+azure-iot-central.md) に進んで下さい
 * [目次ページへ戻る](../index)
 
 ## うまく動かなかったら（トラブルシュート）
