@@ -13,10 +13,10 @@ SORACOM Air SIM は**実際の通信の有無に限らず**日当たりの基本
 本ハンズオンで使用した SORACOM Harvest は、**実際の通信の有無に限らず** SORACOM Harvest が利用可能状態の SIM の枚数に応じて日当たりのオプション料金が発生します  
 詳細は [SORACOM Harvest のご利用料金](https://soracom.jp/services/harvest/price/) をご覧ください
 
-### SORACOM Beam および SORACOM Funnel
+### SORACOM Beam
 
-本ハンズオンで使用した SORACOM Beam および SORACOM Funnel は、発生したリクエストに応じた課金がされるサービスです  
-詳細は [SORACOM Beam のご利用料金](https://soracom.jp/services/beam/price/) ならびに [SORACOM Funnel のご利用料金](https://soracom.jp/services/funnel/price/) をご覧ください
+本ハンズオンで使用した SORACOM Beam は、発生したリクエストに応じた課金がされるサービスです  
+詳細は [SORACOM Beam のご利用料金](https://soracom.jp/services/beam/price/) をご覧ください
 
 ### クーポンの登録方法
 
@@ -29,24 +29,6 @@ SORACOM Air SIM は**実際の通信の有無に限らず**日当たりの基本
 Air SIM のご契約期間をお約束いただくことで、基本料金が割引になる仕組みをご検討ください
 
 * [長期利用割引 - 日本向け Air SIM](https://soracom.jp/services/air/cellular/discount_price/)
-* [長期利用割引に関する手続きやFAQ](https://blog.soracom.jp/blog/2017/05/23/long-term-discount/)
-
-### MQTT ブローカーについて
-
-今回利用した Mosquitto の MQTT ブローカーは、試験用の公開サーバです。誰でも読み書きが可能であるため、実システムでの利用はおやめください。
-
-代替するプロダクトは以下の通りです
-
-* オンプレ型
-    * [Mosquitto](https://mosquitto.org/)
-* フルマネージド型
-    * [Amazon MQ](https://aws.amazon.com/jp/amazon-mq/)
-    * [AWS IoT Core](https://aws.amazon.com/jp/iot-core/)
-    * [Azure IoT Hub](https://azure.microsoft.com/ja-jp/services/iot-hub/)
-    * [Google Cloud IoT Core](https://cloud.google.com/iot-core/)
-    * [PubNub](https://www.pubnub.com/)
-
-※ すべてが MQTT の機能をサポートしているわけでは無いので要件に応じてご選択ください。
 
 ## 【作業】Wio LTE を片付ける
 

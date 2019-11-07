@@ -16,14 +16,13 @@
 * SORACOMアカウントに登録済みの SORACOM Air SIM (nanoサイズ) / 1つ
     * 未登録の場合: [Air SIM の登録](https://dev.soracom.io/jp/start/console/#registsim) の手順に沿って登録します
 * Wio LTE (本体、 アンテナ2本、 電源兼シリアルコンソール用microUSBケーブル) / 1式
-* Grove デジタル温湿度センサー (DHT11) / 1つ
-* Grove コネクタケーブル / 1つ
+* 絶対圧センサ評価モジュール（Groveコネクタ付）
 
 ## 受講における注意点    
 
 * 本ハンズオンで利用するサービスには有料のものを含んでおります
 * ハンズオンに伴い発生した費用（ハンズオン中、ハンズオン後問わず）は原則として受講者にご負担いただいております。係る費用について確認・ご理解いただいたうえでの受講をお願いしております
-    *  [SORACOM Air 料金](https://soracom.jp/services/air/cellular/price/)、[SORACOM Harvest 料金](https://soracom.jp/services/harvest/price/)、[SORACOM Beam 料金](https://soracom.jp/services/beam/price/)、[SORACOM Funnel 料金](https://soracom.jp/services/funnel/price/)
+    *  [SORACOM Air 料金](https://soracom.jp/services/air/cellular/price/)、[SORACOM Harvest 料金](https://soracom.jp/services/harvest/price/)、[SORACOM Beam 料金](https://soracom.jp/services/beam/price/)
 * 本ドキュメントで発生した不具合等につきましては弊社は一切責任を負いません
 
 # 開発環境の準備
@@ -53,7 +52,7 @@ Grove コネクタと STM32F4 マイコン、LTE Cat.1 モジュールが搭載�
 
 「Grove IoT スターターキット for SORACOM」は、 Wio LTE 本体に加え、７つのセンサーと SORACOM Air SIM (日本向け) と SORACOM クーポンが一つにパッケージされたキットです
 
-本ハンズオンでは **デジタル温湿度センサー** を利用します
+今回のハンズオンでは Wio LTE 本体のみ利用します。
 
 ![Grove IoT スターターキット for SORACOM](https://docs.google.com/drawings/d/e/2PACX-1vT7i6svO5xJj56o0x1aUaW3qhkb4aCWynxSzbwVG3boCqe-TQooCC-qAm0Nfa3QBIb9YIum1G7Zkw-Z/pub?w=640&h=347)
 
