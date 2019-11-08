@@ -34,10 +34,10 @@ Wio LTE の **I2C** に取り付けてください
 
 ### TBD GroveDriverPack の説明
 
-以下の URL より `Source code(zip)` を選択して zip ファイルをダウンロードします。
-https://github.com/SeeedJP/GroveDriverPack/releases
+Seeedから、GroveモジュールをWio LTEですばやく利用するためのライブラリ「GroveDriverPack」が提供されているので、これを使えるようにしましょう
 
-Arduino IDE の [スケッチ] > [ライブラリをインクルード] > [.ZIP 形式のライブラリをインストール…] を選択し、先ほどダウンロードした `GroveDriverPack-1.4.0.zip` を探して「開く」をクリックすればインストール完了です
+Arduino IDE の [スケッチ] > [ライブラリをインクルード] > [ライブラリを管理...] を選択し、表示されたライブラリの「GroveDriverPack」の「インストール」をクリックすればインストール完了です
+
 ![](https://docs.google.com/drawings/d/e/2PACX-1vSyvtSl8JWQO_D5-pkwQsp0YVrrWOU76GlZohHURcIIEU-5W3PreVa9tCTUyYI94mId_y5zICWpC6xJ/pub?w=555&h=273)
 
 ### 2-4. スケッチをダウンロードする
