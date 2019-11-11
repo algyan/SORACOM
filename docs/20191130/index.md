@@ -7,7 +7,7 @@
 - [1-2.デバイス稼働時間を SORACOM Harvest で可視化](1/2-uptime)
 - [1-3.絶対圧センサーのデータを SORACOM Harvest で可視化](1/3-sensor)
 - [2-1.絶対圧センサーのデータを Azure IoT Central で可視化](2/1-soracom-beam+azure-iot-central)
-- 3-1. IoT Central 編 (TBD)
+- [3-1. 気圧上昇でEメール通知](3/1)
 - おわりに (今後の費用、片付け方)
     - [SORACOM](0/closing-soracom)
     - Microsoft Azure (TBD)
