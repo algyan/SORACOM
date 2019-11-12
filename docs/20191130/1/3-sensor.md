@@ -32,24 +32,26 @@ Wio LTE の **I2C** に取り付けてください
 
 ### 2-3. GroveDriverPack ライブラリをインストールする
 
-### TBD GroveDriverPack の説明
+Seeed 社から、Grove モジュールを Wio LTE ですばやく利用するためのライブラリ「GroveDriverPack」が提供されているので、これを使えるようにしましょう
 
-Seeedから、GroveモジュールをWio LTEですばやく利用するためのライブラリ「GroveDriverPack」が提供されているので、これを使えるようにしましょう
+Arduino IDE の [スケッチ] > [ライブラリをインクルード] > [ライブラリを管理...] を選択し、検索窓にて「GroveDriverPack」と入力しの「インストール」をクリックすればインストール完了です
 
-Arduino IDE の [スケッチ] > [ライブラリをインクルード] > [ライブラリを管理...] を選択し、表示されたライブラリの「GroveDriverPack」の「インストール」をクリックすればインストール完了です
+![manageLibrary](https://docs.google.com/drawings/d/e/2PACX-1vQJ_BtRf8Hd_iFNjt9tIuuDrJY0x6z_-7yiBtl8Ny-N65HxskBRSlY-6iWyxP1et_0oAh2KBotxWvhN/pub?w=462&h=126)
 
-![](https://docs.google.com/drawings/d/e/2PACX-1vSyvtSl8JWQO_D5-pkwQsp0YVrrWOU76GlZohHURcIIEU-5W3PreVa9tCTUyYI94mId_y5zICWpC6xJ/pub?w=555&h=273)
+![installGroveDriverPack](https://docs.google.com/drawings/d/e/2PACX-1vQFmGnB-8T70rc-gFmzuqRpQQ8VPYZtVEYVrdScJG7F2pWWm8oNhuret9UgFBX-jyswZZ7Cik6qo7Ce/pub?w=462&h=75)
 
 ### 2-4. スケッチをダウンロードする
 
 Arduino IDE で [ファイル] > [新規ファイル] で新しいスケッチを開き、全て削除して何も書かれていない状態にします。
 
 以下の URL を開き、表示されたスケッチをコピーして Arduino IDE にペーストします。
-https://raw.githubusercontent.com/algyan/SORACOM/master/sketch/soracom-unified-omron_GroveDriverPack.ino
+[https://raw.githubusercontent.com/algyan/SORACOM/master/sketch/soracom-unified-omron_GroveDriverPack.ino](https://raw.githubusercontent.com/algyan/SORACOM/master/sketch/soracom-unified-omron_GroveDriverPack.ino)
 
 ### 2-5. Wio LTE と PC を接続して DFUモード にする
 
 ### 2-6. 新しく開いたウィンドウの ![マイコンボードに書き込むアイコン](https://docs.google.com/drawings/d/e/2PACX-1vQiO83cFcX3LCXeioiTiaao57T4SGiIV6XZzcBP6poTwssCxmo7hLpoMh5qG3btyqgzs8Q-lAoE6Q0f/pub?w=100&h=100)(マイコンボードに書き込む) をクリック
+
+スケッチ名を保存するように言われるので、任意の名前をつけてください。
 
 ### 2-7. 書き込みが完了したら、Wio LTE を 通常モードにする (RSTボタンを押せば通常モードになります)
 
