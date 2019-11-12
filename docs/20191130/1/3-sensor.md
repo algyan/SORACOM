@@ -74,7 +74,7 @@ SORACOM Harvest 上で温度(temp)・絶対圧(pres)が表示されるように�
 
 達成状況を運営表へご記入ください。
 
-* [2-1.クラウド連携 / Azure IoT Central 編](../2/1-soracom-beam+azure-iot-central.md) に進んで下さい
+* [2-1.クラウド連携 / Azure IoT Central 編](../2/1-soracom-beam+azure-iot-central-IoTC.md) に進んで下さい
 * [目次ページへ戻る](../index)
 
 ## うまく動かなかったら（トラブルシュート）
