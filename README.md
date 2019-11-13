@@ -1,1 +1,1 @@
-�����ɒu�����t�@�C���� https://algyan.github.io/SORACOM/20191130/ �ȉ��Ō��邱�Ƃ��o���܂�
+ここに置いたファイルは https://algyan.github.io/SORACOM/20191130/ 以下で見ることが出来ます
