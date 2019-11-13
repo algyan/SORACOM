@@ -15,4 +15,4 @@
     - [3-1. 気圧上昇でEメール通知](3/1-azure-iot-central-sendmail.md)
 - おわりに (今後の費用、片付け方)
     - [SORACOM](0/closing-soracom.md)
-    - Microsoft Azure (TBD)
+    - [Azure IoT Central](0/closing-iot-central.md)
