@@ -20,7 +20,7 @@
 * その他: **空欄**
 
 
-<img src="https://docs.google.com/drawings/d/e/2PACX-1vRSDWtOWelYGw9paqusSx3AEfC4nQPGzJ_xjZD8pb7bT3e1aaWtDYNt5iDi8rRGzVmxfq8FjjH5QXnu/pub?w=471&h=879" alt="step5 MQTT PubSub with Mosquitto / beam-setting">
+![](https://docs.google.com/drawings/d/e/2PACX-1vSfZubqspfGJgRFN-PuViUAOlISUXTV9WyXOjqe8KU20hie6rwz1Y-2W6ou10Wfa554M2wRx5GJz7sk/pub?w=204&h=346)
 
 ## 5. 「認証情報」横の「+」を選択し、下記の通り入力し、登録してください。その後、SORACOM Beam の設定も保存します。
 
@@ -29,6 +29,8 @@
 * Access Policy name: **空欄**
 * Shared access key: **2-1 でメモ帳にコピーした値 (Shared access key)**
 
+![](https://docs.google.com/drawings/d/e/2PACX-1vTGri5mVTFtmSIjfQ-jEmhRbMHPacA2JeTLxqS1MPJDCXDeSJ6PYdRpLlisrXmMGuDrSCSrYqaMl1XR/pub?w=339&h=344)
+![](https://docs.google.com/drawings/d/e/2PACX-1vSxDJnQ-fr0NESAWyMiwhjXqVft5A07IufH07gVJFE4W_GXEGG8Qy4N-nQaz4MOeOqFYu2YxH1_jvCu/pub?w=237&h=344)
 
 ## 6. SIM を作成したグループに登録させます
 
