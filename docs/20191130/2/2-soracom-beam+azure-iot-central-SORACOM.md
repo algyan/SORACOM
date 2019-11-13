@@ -1,4 +1,4 @@
-# 2-2. 絶対圧センサーのデータを Azure IoT Central で可視化 (SORACOM の設定)
+# 2-2.絶対圧センサーのデータを Azure IoT Central で可視化 (SORACOM の設定)
 
 ## 1. [SORACOM Web コンソール](https://console.soracom.io/) で 左上[Menu] > [SIM グループ]
 
@@ -40,5 +40,5 @@
 
 以上で本章は終了です。
 
-* [2-3.クラウド連携 / Azure IoT Central 編 (Wio LTE の設定)](../2/3-soracom-beam+azure-iot-central-Wio.md) に進んで下さい
-* [目次ページへ戻る](../index)
+* [2-3.絶対圧センサーのデータを Azure IoT Central で可視化 (Wio LTE の設定)](3-soracom-beam+azure-iot-central-Wio.md) に進んで下さい
+* [目次ページへ戻る](../index.md)

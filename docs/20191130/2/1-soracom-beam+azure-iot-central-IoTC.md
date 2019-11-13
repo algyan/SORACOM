@@ -1,4 +1,4 @@
-# 2-1. 絶対圧センサーのデータを Azure IoT Central で可視化 (IoTC の設定)
+# 2-1.絶対圧センサーのデータを Azure IoT Central で可視化 (IoTC の設定)
 
 絶対圧センサーのデータを Azure IoT Central (以下、IoTC) で可視化してみましょう
 
@@ -148,5 +148,5 @@ SORACOM Beam Setting
 
 達成状況を運営表へご記入ください。
 
-* [2-2.クラウド連携 / Azure IoT Central 編 (SORACOM の設定)](../2/2-soracom-beam+azure-iot-central-SORACOM.md) に進んで下さい
-* [目次ページへ戻る](../index)
+* [2-2.絶対圧センサーのデータを Azure IoT Central で可視化 (SORACOM の設定)](2-soracom-beam+azure-iot-central-SORACOM.md) に進んで下さい
+* [目次ページへ戻る](../index.md)

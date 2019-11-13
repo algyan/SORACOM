@@ -1,4 +1,4 @@
-# 1-3: 絶対圧センサーのデータを SORACOM Harvest で可視化
+# 1-3.絶対圧センサーのデータを SORACOM Harvest で可視化
 
 絶対圧センサーのデータを SORACOM Harvest で可視化してみましょう
 
@@ -74,8 +74,8 @@ SORACOM Harvest 上で温度(temp)・絶対圧(pres)が表示されるように�
 
 達成状況を運営表へご記入ください。
 
-* [2-1.クラウド連携 / Azure IoT Central 編](../2/1-soracom-beam+azure-iot-central-IoTC.md) に進んで下さい
-* [目次ページへ戻る](../index)
+* [2-1.絶対圧センサーのデータを Azure IoT Central で可視化 (IoTC の設定)](../2/1-soracom-beam+azure-iot-central-IoTC.md) に進んで下さい
+* [目次ページへ戻る](../index.md)
 
 ## うまく動かなかったら（トラブルシュート）
 
