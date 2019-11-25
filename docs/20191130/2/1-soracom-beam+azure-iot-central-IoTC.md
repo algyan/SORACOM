@@ -127,7 +127,7 @@ Azureサブスクリプションに紐づいたMicrosoftアカウントを使っ
 `curl -O https://gist.githubusercontent.com/j3tm0t0/b5bd4cf95aee4abca9f73b43d3935a3f/raw/20d57ac66bee595eee20396e9cc463cc54b823ce/register.sh`
 3. 以下のコマンドで SORACOM Beam 用の接続情報を作成します。
 `bash ./register.sh [スコープID] [デバイスID] [主キー]`
-4. 以下の例ように出力される内容は次の手順で使いますので**メモ帳などにコピー**しておいてください。
+4. 以下の例のように出力される内容は次の手順で使いますので**メモ帳などにコピー**しておいてください。
 
 ```
 SORACOM Beam Setting

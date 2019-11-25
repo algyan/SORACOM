@@ -22,7 +22,7 @@
 
 ![](https://docs.google.com/drawings/d/e/2PACX-1vSfZubqspfGJgRFN-PuViUAOlISUXTV9WyXOjqe8KU20hie6rwz1Y-2W6ou10Wfa554M2wRx5GJz7sk/pub?w=204&h=346)
 
-## 5. 「認証情報」横の「+」を選択し、下記の通り入力し、登録してください。その後、SORACOM Beam の設定も保存します。
+## 5. 「認証情報」横の「+」を選択し、下記の通り入力し、登録してください。
 
 * 認証情報 ID: **2-1 でメモ帳にコピーした値 (Credentials set ID)**
 * 概要: **2-1 でメモ帳にコピーした値 (Description)**
@@ -30,6 +30,9 @@
 * Shared access key: **2-1 でメモ帳にコピーした値 (Shared access key)**
 
 ![](https://docs.google.com/drawings/d/e/2PACX-1vTGri5mVTFtmSIjfQ-jEmhRbMHPacA2JeTLxqS1MPJDCXDeSJ6PYdRpLlisrXmMGuDrSCSrYqaMl1XR/pub?w=339&h=344)
+
+その後、SORACOM Beam の設定も保存します。
+
 ![](https://docs.google.com/drawings/d/e/2PACX-1vSxDJnQ-fr0NESAWyMiwhjXqVft5A07IufH07gVJFE4W_GXEGG8Qy4N-nQaz4MOeOqFYu2YxH1_jvCu/pub?w=237&h=344)
 
 ## 6. SIM を作成したグループに登録させます
