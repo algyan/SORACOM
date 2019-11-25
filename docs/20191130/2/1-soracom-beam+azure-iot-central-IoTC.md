@@ -18,7 +18,7 @@ Azureサブスクリプションに紐づいたMicrosoftアカウントを使っ
 |:--|:--|:--|
 |①Application Name|==任意==|SORACOM IoTC handson|
 |②URL|==ユニークURL==|同じURLが既に存在するとエラーになります|
-|③Application template|Custom application||
+|③Application template|カスタムアプリケーション||
 |④7 day free trial|OFF||
 |⑤Directory|==任意==||
 |⑥Azure subscription|==任意==|(※)|
