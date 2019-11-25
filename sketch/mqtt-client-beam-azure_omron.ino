@@ -1,6 +1,6 @@
 #include <GroveDriverPack.h> // https://github.com/SeeedJP/GroveDriverPack/releases
 #include <WioLTEClient.h>
-#include <PubSubClient.h>    // https://github.com/knolleary/pubsubclient
+#include <PubSubClient.h>    // https://github.com/SeeedJP/pubsubclient
 #include <stdio.h>
 #define APN               "soracom.io"
 #define USERNAME          "sora"
