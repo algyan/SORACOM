@@ -18,7 +18,7 @@ Azureサブスクリプションに紐づいたMicrosoftアカウントを使っ
 |:--|:--|:--|
 |①Application Name|==任意==|SORACOM IoTC handson|
 |②URL|==ユニークURL==|同じURLが既に存在するとエラーになります|
-|③Application template|Custom application||
+|③Application template|カスタムアプリケーション||
 |④7 day free trial|OFF||
 |⑤Directory|==任意==||
 |⑥Azure subscription|==任意==|(※)|
@@ -124,10 +124,10 @@ Azureサブスクリプションに紐づいたMicrosoftアカウントを使っ
 
 1. [Azure CLI](https://shell.azure.com) または bash が利用できるターミナルを開きます。
 2. 以下の コマンドでスクリプトをダウンロードします。  
-`wget https://gist.githubusercontent.com/j3tm0t0/b5bd4cf95aee4abca9f73b43d3935a3f/raw/7ae5b041e6d1a233445c84a28c5b634c85a641a2/register.sh`
+`curl -O https://gist.githubusercontent.com/j3tm0t0/b5bd4cf95aee4abca9f73b43d3935a3f/raw/20d57ac66bee595eee20396e9cc463cc54b823ce/register.sh`
 3. 以下のコマンドで SORACOM Beam 用の接続情報を作成します。
 `bash ./register.sh [スコープID] [デバイスID] [主キー]`
-4. 以下の例ように出力される内容は次の手順で使いますので**メモ帳などにコピー**しておいてください。
+4. 以下の例のように出力される内容は次の手順で使いますので**メモ帳などにコピー**しておいてください。
 
 ```
 SORACOM Beam Setting
