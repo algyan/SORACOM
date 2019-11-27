@@ -7,7 +7,7 @@ MQTT 通信を行うにあたり PubSubClient というライブラリを利用�
 
 ## 2. 追加のライブラリをダウンロードする
 
-[SeeedJP/pubsubclient](https://github.com/SeeedJP/pubsubclient/releases) のページから **2.6 の ZIP** をダウンロードします
+<a href="https://github.com/SeeedJP/pubsubclient/releases" target="_blank">SeeedJP/pubsubclient</a>のページから **2.6 の ZIP** をダウンロードします
 
 ## 3. Arduino IDE を起動する
 
@@ -31,7 +31,7 @@ Arduino IDE で [ファイル] > [新規ファイル] で新しいスケッチ�
 
 以下の URL を開き、表示されたスケッチをコピーして Arduino IDE にペーストします。
 
-[https://raw.githubusercontent.com/algyan/SORACOM/master/sketch/mqtt-client-beam-azure_omron.ino](https://raw.githubusercontent.com/algyan/SORACOM/master/sketch/mqtt-client-beam-azure_omron.ino)
+<a href="https://raw.githubusercontent.com/algyan/SORACOM/master/sketch/mqtt-client-beam-azure_omron.ino" target="_blank">https://raw.githubusercontent.com/algyan/SORACOM/master/sketch/mqtt-client-beam-azure_omron.ino</a>
 
 ## 6. Wio LTE を PC を接続して DFUモード にする
 

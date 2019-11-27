@@ -4,7 +4,7 @@
 
 ## <a name="1">1. IoTC :  アプリケーションを作成</a>
 
-Webブラウザで`https://aka.ms/iotcentral`を開いて、左側のメニューの①`Build`をクリックしてから、②`Custom app`をクリックしてください。
+Webブラウザで <a href="https://aka.ms/iotcentral" target="_blank">https://aka.ms/iotcentral</a> を開いて、左側のメニューの①`Build`をクリックしてから、②`Custom app`をクリックしてください。
 
 ![1](img/1.png)
 
@@ -122,7 +122,7 @@ Azureサブスクリプションに紐づいたMicrosoftアカウントを使っ
 
 ## <a name="5">5. SORACOM Beam 用の接続情報を作成</a>
 
-1. [Cloud Shell](https://shell.azure.com) または bash が利用できるターミナルを開きます。
+1. <a href="https://shell.azure.com" target="_blank">Cloud Shell </a>または bash が利用できるターミナルを開きます。
 2. 以下の コマンドでスクリプトをダウンロードします。  
 `curl -O https://gist.githubusercontent.com/j3tm0t0/b5bd4cf95aee4abca9f73b43d3935a3f/raw/20d57ac66bee595eee20396e9cc463cc54b823ce/register.sh`
 3. 以下のコマンドで SORACOM Beam 用の接続情報を作成します。今回の場合デバイス ID には `wiolte` となります。
