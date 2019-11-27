@@ -20,7 +20,7 @@ Grove 絶対圧センサーを Wio LTE に取り付けます
 
 Wio LTE の **I2C** に取り付けてください
 
-![Wio LTE に絶対圧センサーを取り付けたところ](https://docs.google.com/drawings/d/e/2PACX-1vTZiJ7ep0q7IR2KoNJPnvHcTA_JMGEWTn5qwrlp8AC2YLAtETPRAGXss98LMKm061OlM76hDasUyIoS/pub?w=640&h=480)
+![Wio LTE に絶対圧センサーを取り付けたところ](https://docs.google.com/drawings/d/e/2PACX-1vRBi2zlLImt0IEXEjmQlSRzZJdPagnI5K_UmLCJatwcNM95GCieWVogoqlJucfslloCoj9_myL9ICdi/pub?w=527&h=494)
 
 <h2 id="sketch">2. スケッチを作成する</h2>
 
@@ -64,7 +64,7 @@ Arduino IDE で [ファイル] > [新規ファイル] で新しいスケッチ�
 SORACOM Harvest 上で温度(temp)・絶対圧(pres)が表示されるようになります  
 ※SORACOM Harvest の操作方法は ステップ2 で確認してください
 
-![harvest-all-plot](https://docs.google.com/drawings/d/e/2PACX-1vSwebGsd_kOHhagej9sCP5WEVVYZt45KKKa_vgd343pLYyIMj95sFvdMtDtDSe3eixfDjJBizt3wlS5/pub?w=674&h=333)
+![harvest-all-plot](https://docs.google.com/drawings/d/e/2PACX-1vTVfD0Tza1V03j-r7zJ3DI92lwPVDRUvZD3xv_Pl3nxPLwusbM4YtBv3FQkQs7AQM6_i-YBcjNaYNv3/pub?w=927&h=360)
 
 ## 4. Wio LTE の動作を止める
 
@@ -83,15 +83,3 @@ SORACOM Harvest 上で温度(temp)・絶対圧(pres)が表示されるように�
 
 * 原因: 電波状況などによりセルラー通信に失敗している
 * 対策: RST ボタンを押して Wio LTE を再度起動しなおしてください
-
-**SORACOM Harvest でデータ表示がされない**
-
-* 原因: ステップ2 で行った稼働時間のデータが原因で、データのY軸が大きすぎて表示されない場合があります
-* 対策: SORACOM Harvest 上で下記操作を行ってください
-    - 凡例をクリックすることで当該のデータを非表示できる機能
-    - 他の形式で表示する機能
-    - 最大値/最小値の設定ができる機能
-
-![harvest-exclude-plot](https://docs.google.com/drawings/d/e/2PACX-1vRa8wgI9GtmrCNPLiKhwF6o-tkCTg4QBC3xUBY_nxK3urV4B0r0b5yEsSLWjIy88tJJKAwCQYJVcvGm/pub?w=634&h=300)
-
-![harvest-alt-plot](https://docs.google.com/drawings/d/e/2PACX-1vR_nFPgaTosGb5Ywy0KsNp6d7yP1MHkMcM6uUqT8fuw4WMdsSTn3fct1izl6MjEmeWLDq6yi3_5lnwW/pub?w=731&h=306)

@@ -18,7 +18,7 @@ Azureサブスクリプションに紐づいたMicrosoftアカウントを使っ
 |:--|:--|:--|
 |①Application Name|==任意==|SORACOM IoTC handson|
 |②URL|==ユニークURL==|同じURLが既に存在するとエラーになります|
-|③Application template|カスタムアプリケーション||
+|③Application template|カスタムアプリケーション(Custom application)||
 |④7 day free trial|OFF||
 |⑤Directory|==任意==||
 |⑥Azure subscription|==任意==|(※)|
@@ -107,7 +107,7 @@ Azureサブスクリプションに紐づいたMicrosoftアカウントを使っ
 
 ![14](img/14.png)
 
-①`デバイス名`に**必ず** `wiolte` と入力して、②`作成`をクリックしてください。
+①`デバイス ID`に**必ず** `wiolte` と入力して、②`作成`をクリックしてください。(デバイス名は任意です)
 
 ![15](img/15.png)
 
@@ -122,10 +122,10 @@ Azureサブスクリプションに紐づいたMicrosoftアカウントを使っ
 
 ## <a name="5">5. SORACOM Beam 用の接続情報を作成</a>
 
-1. [Azure CLI](https://shell.azure.com) または bash が利用できるターミナルを開きます。
+1. [Cloud Shell](https://shell.azure.com) または bash が利用できるターミナルを開きます。
 2. 以下の コマンドでスクリプトをダウンロードします。  
 `curl -O https://gist.githubusercontent.com/j3tm0t0/b5bd4cf95aee4abca9f73b43d3935a3f/raw/20d57ac66bee595eee20396e9cc463cc54b823ce/register.sh`
-3. 以下のコマンドで SORACOM Beam 用の接続情報を作成します。
+3. 以下のコマンドで SORACOM Beam 用の接続情報を作成します。今回の場合デバイス ID には `wiolte` となります。
 `bash ./register.sh [スコープID] [デバイスID] [主キー]`
 4. 以下の例のように出力される内容は次の手順で使いますので**メモ帳などにコピー**しておいてください。
 

@@ -45,7 +45,9 @@ Arduino IDE で [ファイル] > [新規ファイル] で新しいスケッチ�
 
 ## 9. データの確認
 
-IoTC でデバイスから送信されたデータを確認します。TBD
+IoTC でデバイスから送信されたデータを確認します。
+
+![](https://docs.google.com/drawings/d/e/2PACX-1vTil8K5HXwwaExDq44VsWbcagxN4FfHBcms3qALcRYZht1_gODmcIWpJAKlvEVHZCXpRnysATXW8vAT/pub?w=926&h=504)
 
 以上で本章は終了です。
 
