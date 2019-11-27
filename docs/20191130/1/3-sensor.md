@@ -20,7 +20,7 @@ Grove 絶対圧センサーを Wio LTE に取り付けます
 
 Wio LTE の **I2C** に取り付けてください
 
-![Wio LTE に絶対圧センサーを取り付けたところ](https://docs.google.com/drawings/d/e/2PACX-1vTZiJ7ep0q7IR2KoNJPnvHcTA_JMGEWTn5qwrlp8AC2YLAtETPRAGXss98LMKm061OlM76hDasUyIoS/pub?w=640&h=480)
+![Wio LTE に絶対圧センサーを取り付けたところ](https://docs.google.com/drawings/d/e/2PACX-1vRBi2zlLImt0IEXEjmQlSRzZJdPagnI5K_UmLCJatwcNM95GCieWVogoqlJucfslloCoj9_myL9ICdi/pub?w=527&h=494)
 
 <h2 id="sketch">2. スケッチを作成する</h2>
 
