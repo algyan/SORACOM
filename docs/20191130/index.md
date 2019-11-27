@@ -2,7 +2,10 @@
 
 以下の順番で進めてください
 
-- <a href="https://soracom.github.io/jp-training/WioLTE/0/prepare.html" target="_blank">0.事前準備 (まだ完了していない方)</a>
+- 0.事前準備 (まだ完了していない方)
+    - <a href="https://soracom.github.io/jp-training/WioLTE/0/prepare.html" target="_blank">0-1. 開発環境のセットアップ</a>
+    - [0-2. SORACOM アカウントのセットアップ](https://dev.soracom.io/jp/start/console/#account)
+    - [0-3. Azure アカウントのセットアップ](https://github.com/algyan/azure-subscription)
 - 1.Wio LTE を SORACOM に接続する
     - [1-1.セットアップ〜動作確認](1/1-setup.md)
     - [1-2.デバイス稼働時間を SORACOM Harvest で可視化](1/2-uptime.md)
