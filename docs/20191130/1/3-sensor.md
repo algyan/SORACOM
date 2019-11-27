@@ -45,7 +45,7 @@ Arduino IDE の [スケッチ] > [ライブラリをインクルード] > [ラ�
 Arduino IDE で [ファイル] > [新規ファイル] で新しいスケッチを開き、全て削除して何も書かれていない状態にします。
 
 以下の URL を開き、表示されたスケッチをコピーして Arduino IDE にペーストします。
-[https://raw.githubusercontent.com/algyan/SORACOM/master/sketch/soracom-unified-omron_GroveDriverPack.ino](https://raw.githubusercontent.com/algyan/SORACOM/master/sketch/soracom-unified-omron_GroveDriverPack.ino)
+<a href="https://raw.githubusercontent.com/algyan/SORACOM/master/sketch/soracom-unified-omron_GroveDriverPack.ino" target="_blank">https://raw.githubusercontent.com/algyan/SORACOM/master/sketch/soracom-unified-omron_GroveDriverPack.ino</a>
 
 ### 2-5. Wio LTE と PC を接続して DFUモード にする
 
